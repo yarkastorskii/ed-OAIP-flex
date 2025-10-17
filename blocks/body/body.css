@@ -1,0 +1,9 @@
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    padding: var(--padding-base);
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+}

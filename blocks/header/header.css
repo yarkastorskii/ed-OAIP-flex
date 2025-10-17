@@ -1,0 +1,14 @@
+@import url("./__title/title.css");
+@import url("./__list/list.css");
+@import url("./__item/item.css");
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border-block-end: 1px solid var(--grey-color);
+    padding: var(--padding-base);
+    margin-block-end: var(--margin-base);
+    justify-content: space-between;
+    gap: var(--gap-base);
+    align-items: center;
+}

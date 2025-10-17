@@ -7,5 +7,20 @@
   font-display: swap;
 }
 
-/* 500 - Medium */
-/* 700 - Bold */
+@font-face {
+  src: local("Roboto"), local("Roboto-Medium"),
+    url("./Roboto-Medium.woff2") format("woff2"),
+    url("./Roboto-Medium.ttf") format("truetype");
+  font-family: "Roboto";
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  src: local("Roboto"), local("Roboto-Bold"),
+    url("./Roboto-Bold.woff2") format("woff2"),
+    url("./Roboto-Bold.ttf") format("truetype");
+  font-family: "Roboto";
+  font-weight: 700;
+  font-display: swap;
+}
